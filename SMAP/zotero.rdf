@@ -1,0 +1,399 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <rdf:Description rdf:about="http://arxiv.org/abs/1704.04861">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Howard</foaf:surname>
+                        <foaf:givenName>Andrew G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Menglong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Bo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kalenichenko</foaf:surname>
+                        <foaf:givenName>Dmitry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Weijun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weyand</foaf:surname>
+                        <foaf:givenName>Tobias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andreetto</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adam</foaf:surname>
+                        <foaf:givenName>Hartwig</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Computer Vision and Pattern Recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications</dc:title>
+        <dcterms:abstract>We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.</dcterms:abstract>
+        <prism:number>arXiv:1704.04861</prism:number>
+        <dc:date>2017-04-16</dc:date>
+        <dc:identifier>DOI 10.48550/arXiv.1704.04861</dc:identifier>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1704.04861</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 13:03:51</dcterms:dateSubmitted>
+        <z:shortTitle>MobileNets</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:description>arXiv:1704.04861 [cs]</dc:description>
+    </rdf:Description>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/7968387">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.1109/TPAMI.2017.2723009</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Bolei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lapedriza</foaf:surname>
+                        <foaf:givenName>Agata</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khosla</foaf:surname>
+                        <foaf:givenName>Aditya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oliva</foaf:surname>
+                        <foaf:givenName>Aude</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Torralba</foaf:surname>
+                        <foaf:givenName>Antonio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Places: A 10 Million Image Database for Scene Recognition | IEEE Journals &amp; Magazine | IEEE Xplore</dc:title>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ieeexplore.ieee.org/document/7968387</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 11:53:44</dcterms:dateSubmitted>
+    </bib:Article>
+    <rdf:Description rdf:about="https://papers.ssrn.com/abstract=3852766">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rochester, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thakurdesai</foaf:surname>
+                        <foaf:givenName>Shalva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vira</foaf:surname>
+                        <foaf:givenName>Shubham</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanitkar</foaf:surname>
+                        <foaf:givenName>Gouri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Save</foaf:surname>
+                        <foaf:givenName>Jagruti</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Google vision</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Image annotation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Image processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Image query</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Label detection</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>OCR</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Smart Gallery using Google Vision</dc:title>
+        <dcterms:abstract>The proposed project comprises a system which helps intelligent gallery management. For this, a server, mobile interface and web interface has been made. The mobile interface uploads photos to the server and ensures privacy of photos. The server processes the photos and saves the data like size, object analysis and OCR in the database. The web interface let's user login and query the photos for different objects and OCR. The user also has option to sort photos by size or date of upload. If the user wants to clear the gallery, all the images can be deleted or downloaded at once. The user can also search for similar images by giving an image as a query alongside text queries. Technologies used include HTML, CSS, SQL, flutter ensures cross platform compatibility and PHP makes API calls and manages the backend. Google vision ensures reliable image processing.</dcterms:abstract>
+        <z:type>SSRN Scholarly Paper</z:type>
+        <prism:number>3852766</prism:number>
+        <dc:date>2021-05-25</dc:date>
+        <dc:identifier>DOI 10.2139/ssrn.3852766</dc:identifier>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://papers.ssrn.com/abstract=3852766</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 11:46:25</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Social Science Research Network</z:libraryCatalog>
+    </rdf:Description>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S2212571X20301347">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2212-571X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Renwu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luo</foaf:surname>
+                        <foaf:givenName>Jiaqi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Songshan (Sam)</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Artificial intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Deep learning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Destination management</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Photo identification</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Smart tourism</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Developing an artificial intelligence framework for online destination image photos identification</dc:title>
+        <dcterms:abstract>With the development of advanced technologies in computer science, such as deep learning and transfer learning, the tourism field is facing a more intelligent and automated future development environment. In this study, an artificial intelligence (AI) framework is developed to identify tourism photos without human interaction. Adopting online destination photos of Australia as a data source, the results show that the model combining a deep convolutional neural network and mixed transfer learning achieved the best image identification performance. This study identified 25 image classification categories covering all the tourism scenes to serve as a foundation for future tourism computer vision research. The results indicate that the AI photo identification framework is of great benefit for the understanding of projected destination images and enhancing tourism experiences. This study contributes to the existing literature by introducing an intelligent automation framework to big data research in the tourism field, as well as by advancing innovative methodologies of online destination image analysis. Practically, the proposed framework contributes to the marketing and management of smart destinations by offering a state-of-the-art data mining method.</dcterms:abstract>
+        <bib:pages>100512</bib:pages>
+        <dc:date>2020-12-01</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S2212571X20301347</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 11:46:06</dcterms:dateSubmitted>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2212-571X">
+        <dc:title>Journal of Destination Marketing &amp; Management</dc:title>
+        <prism:volume>18</prism:volume>
+        <dcterms:alternative>Journal of Destination Marketing &amp; Management</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.jdmm.2020.100512</dc:identifier>
+        <dc:identifier>ISSN 2212-571X</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.pnrjournal.com/index.php/home/article/view/8539">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2229-7723"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenName>Ujjwal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goel</foaf:surname>
+                        <foaf:givenName>Tanya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenName>Dr Jagbeer</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Real-Time Image Processing Using Deep Learning With Opencv And Python</dc:title>
+        <dcterms:abstract>The observation of laptop imaginative and prescient aids in the improvement of techniques for figuring out presentations and pictures. It contains a variety of functions, including picture recognition, object identification and image production among others. Face recognition, vehicle recognition, online photos, and safety systems all employ object detection. The goal is to identify things using the You Only Look Once (YOLO) technique. When compared to previous object identification algorithms, our method focuses on a few key areas. Unlike other algorithms, YOLO scans the whole photograph through estimating bounding containers the use of convolutional networks and sophistication possibilities for those containers. This permits YOLO to understand an photograph extra fast than different algorithms together with convolutional neural networks and speedy convolutional neural network. By using dependencies like OpenCV, we can identify each object in an image based on the region object in a distinct rectangular box, identify every item and assign its tag to the item the use of those strategies and algorithms primarily based totally on deep learning, which is likewise primarily based totally on system learning. It moreover consists of the nuances of every item-marking strategy.</dcterms:abstract>
+        <bib:pages>1905-1908</bib:pages>
+        <dc:date>2023-02-11</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.pnrjournal.com/index.php/home/article/view/8539</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 11:45:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.pnrjournal.com</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2229-7723">
+        <dc:title>Journal of Pharmaceutical Negative Results</dc:title>
+        <dc:identifier>DOI 10.47750/pnr.2023.14.03.246</dc:identifier>
+        <dc:identifier>ISSN 2229-7723</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="https://www.semanticscholar.org/paper/Object-Detection-using-Convolutional-Neural-Network-Emmanuel-Onuodu/c61d07cdb15155c9b9fea4af42a3e917f3962a88">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Emmanuel</foaf:surname>
+                        <foaf:givenName>Seetam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Onuodu</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Object Detection using Convolutional Neural Network Transfer Learning</dc:title>
+        <dcterms:abstract>Any machine learning algorithm's ability to extract salient (relevant) characteristics is critical to its success. Traditional machine learning methods rely on domain expert-generated input features or computational feature extraction techniques. A Convolutional Neural Network (CNN) is a type of artificial intelligence inspired by how the human brain's visual cortex functions when it comes to object detection. Because CNN requires a large number of neurons and layers to train data, it is not ideal for small datasets. Obtaining and storing a huge data collection for a scratch program is a challenge. These issues can be solved by using transfer training using a pre-trained data set. This is a dimensionality reduction approach used in deep learning analysis to lower the number of hidden layers and construct neural network applications on tiny data sets with high gain and little information loss. Using transfer learning to retrain a convolutional neural network to categorize a fresh batch of photos, this research investigates visual properties and isolates those that unify the digital image. The developed model satisfied 97% MSE (Mean Squared Error).</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.semanticscholar.org/paper/Object-Detection-using-Convolutional-Neural-Network-Emmanuel-Onuodu/c61d07cdb15155c9b9fea4af42a3e917f3962a88</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 11:44:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>Semantic Scholar</z:libraryCatalog>
+    </rdf:Description>
+    <bib:Article rdf:about="http://pen.ius.edu.ba/index.php/pen/article/view/3517">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2303-4521"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Al-Shammary</foaf:surname>
+                        <foaf:givenName>Ali Abbas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zaghden</foaf:surname>
+                        <foaf:givenName>Nizar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bouhlel</foaf:surname>
+                        <foaf:givenName>Med Salim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Automatic image annotation system using deep learning method to analyse ambiguous images</dc:title>
+        <dcterms:abstract>Image annotation has gotten a lot of attention recently because of how quickly picture data has expanded. Together with image analysis and interpretation, image annotation, which may semantically describe images, has a variety of uses in allied industries including urban planning engineering. Even without big data and image identification technologies, it is challenging to manually analyze a diverse variety of photos. The improvements to the Automated Image Annotation (AIA) label system have been the subject of several scholarly research. The authors will discuss how to use image databases and the AIA system in this essay. The proposed method extracts image features from photos using an improved VGG-19, and then uses nearby features to automatically forecast picture labels. The proposed study accounts for both correlations between labels and images as well as correlations within images. The number of labels is also estimated using a label quantity prediction (LQP) model, which improves label prediction precision. The suggested method addresses automatic annotation methodologies for pixel-level images of unusual things while incorporating supervisory information via interactive spherical skins. The genuine things that were converted into metadata and identified as being connected to pre-existing categories were categorized by the authors using a deep learning approach called a conventional neural network (CNN) - supervised. Certain object monitoring systems strive for a high item detection rate (true-positive), followed by a low availability rate (false-positive). The authors created a KD-tree based on k-nearest neighbors (KNN) to speed up annotating. In order to take into account for the collected image backdrop. The proposed method transforms the conventional two-class object detection problem into a multi-class classification problem, breaking the separated and identical distribution estimations on machine learning methodologies. It is also simple to use because it only requires pixel information and ignores any other supporting elements from various color schemes. The following factors are taken into consideration while comparing the five different AIA approaches: main idea, significant contribution, computational framework, computing speed, and annotation accuracy. A set of publicly accessible photos that serve as standards for assessing AIA methods is also provided, along with a brief description of the four common assessment signs.</dcterms:abstract>
+        <bib:pages>176-185</bib:pages>
+        <dc:date>2023-04-03</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pen.ius.edu.ba/index.php/pen/article/view/3517</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-09 11:40:27</dcterms:dateSubmitted>
+        <z:libraryCatalog>pen.ius.edu.ba</z:libraryCatalog>
+        <dc:rights>Copyright (c) 2023 Ali Abbas Al-Shammary, Nizar Zaghden, Med Salim Bouhlel</dc:rights>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2303-4521">
+        <dc:title>Periodicals of Engineering and Natural Sciences</dc:title>
+        <prism:volume>11</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:identifier>DOI 10.21533/pen.v11i2.3517</dc:identifier>
+        <dc:identifier>ISSN 2303-4521</dc:identifier>
+    </bib:Journal>
+</rdf:RDF>
