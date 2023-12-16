@@ -1,89 +1,229 @@
 <rdf:RDF
  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
  xmlns:z="http://www.zotero.org/namespaces/export#"
- xmlns:dc="http://purl.org/dc/elements/1.1/"
- xmlns:foaf="http://xmlns.com/foaf/0.1/"
- xmlns:bib="http://purl.org/net/biblio#"
  xmlns:dcterms="http://purl.org/dc/terms/"
- xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
- xmlns:vcard="http://nwalsh.com/rdf/vCard#">
-    <rdf:Description rdf:about="http://arxiv.org/abs/1704.04861">
-        <z:itemType>preprint</z:itemType>
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:BookSection rdf:about="urn:isbn:9789811686153">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Machine Learning: Foundations, Methodologies, and Applications</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:title>Artificial Intelligence with Python</dc:title>
+                <dc:identifier>ISBN 9789811686153</dc:identifier>
+            </bib:Book>
+        </dcterms:isPartOf>
         <dc:publisher>
-           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Singapore</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer</foaf:name>
+            </foaf:Organization>
         </dc:publisher>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Howard</foaf:surname>
-                        <foaf:givenName>Andrew G.</foaf:givenName>
+                        <foaf:surname>Teoh</foaf:surname>
+                        <foaf:givenName>Teik Toe</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Zhu</foaf:surname>
-                        <foaf:givenName>Menglong</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Chen</foaf:surname>
-                        <foaf:givenName>Bo</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Kalenichenko</foaf:surname>
-                        <foaf:givenName>Dmitry</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Wang</foaf:surname>
-                        <foaf:givenName>Weijun</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Weyand</foaf:surname>
-                        <foaf:givenName>Tobias</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Andreetto</foaf:surname>
-                        <foaf:givenName>Marco</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Adam</foaf:surname>
-                        <foaf:givenName>Hartwig</foaf:givenName>
+                        <foaf:surname>Rong</foaf:surname>
+                        <foaf:givenName>Zheng</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>
-            <z:AutomaticTag>
-                <rdf:value>Computer Science - Computer Vision and Pattern Recognition</rdf:value>
-            </z:AutomaticTag>
-        </dc:subject>
-        <dc:title>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications</dc:title>
-        <dcterms:abstract>We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.</dcterms:abstract>
-        <prism:number>arXiv:1704.04861</prism:number>
-        <dc:date>2017-04-16</dc:date>
-        <dc:identifier>DOI 10.48550/arXiv.1704.04861</dc:identifier>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Teoh</foaf:surname>
+                        <foaf:givenName>Teik Toe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rong</foaf:surname>
+                        <foaf:givenName>Zheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Artificial Intelligence with Python</dc:title>
+        <dcterms:abstract>Convolutional Neural Networks are neural networks with convolution layers which perform operations similar to image processing filters. Convolutional Neural Networks are applied in a variety of tasks related to images such as image classification, object detection, and semantic segmentation. Popular Network architectures include ResNet, GoogleNet, and VGG. These networks are often trained on very large datasets, can be downloaded in Keras and Tensorflow, and can be later used for finetuning on other tasks.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <bib:pages>261-275</bib:pages>
+        <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
-               <rdf:value>http://arxiv.org/abs/1704.04861</rdf:value>
+               <rdf:value>https://doi.org/10.1007/978-981-16-8615-3_16</rdf:value>
             </dcterms:URI>
         </dc:identifier>
-        <dcterms:dateSubmitted>2023-12-09 13:03:51</dcterms:dateSubmitted>
-        <z:shortTitle>MobileNets</z:shortTitle>
-        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
-        <dc:description>arXiv:1704.04861 [cs]</dc:description>
-    </rdf:Description>
+        <dcterms:dateSubmitted>2023-12-16 17:48:30</dcterms:dateSubmitted>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:description>DOI: 10.1007/978-981-16-8615-3_16</dc:description>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="urn:isbn:9781484227664">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Deep Learning with Python: A Hands-on Introduction</dc:title>
+                <dc:identifier>ISBN 9781484227664</dc:identifier>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berkeley, CA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Apress</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ketkar</foaf:surname>
+                        <foaf:givenName>Nikhil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ketkar</foaf:surname>
+                        <foaf:givenName>Nikhil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Convolution Operation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Convolutional Neural Network</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Deep Learning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Multiple Kernel</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Neural Network</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Deep Learning with Python</dc:title>
+        <dcterms:abstract>Convolution Neural Networks (CNNs) in essence are neural networks that employ the convolution operation (instead of a fully connected layer) as one of its layers.</dcterms:abstract>
+        <dc:date>2017</dc:date>
+        <bib:pages>63-78</bib:pages>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/978-1-4842-2766-4_5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-16 17:46:40</dcterms:dateSubmitted>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:description>DOI: 10.1007/978-1-4842-2766-4_5</dc:description>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="urn:isbn:9781484235164">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Deep Learning with Applications Using Python : Chatbots and Face, Object, and Speech Recognition With TensorFlow and Keras</dc:title>
+                <dc:identifier>ISBN 9781484235164</dc:identifier>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berkeley, CA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Apress</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manaswi</foaf:surname>
+                        <foaf:givenName>Navin Kumar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manaswi</foaf:surname>
+                        <foaf:givenName>Navin Kumar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Vision Problems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Convolutional Neural Network (CNN)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Image Classification Challenge</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Layer Feed-forward Artificial Neural Network</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Natural Language Processing Problems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Deep Learning with Applications Using Python</dc:title>
+        <dcterms:abstract>A convolutional neural network (CNN) is a deep, feed-forward artificial neural network in which the neural network preserves the hierarchical structure by learning internal feature representations and generalizing the features in the common image problems such as object recognition and other computer vision problems. It is not restricted to images; it also receives state-of-the-art results in natural language processing problems and speech recognition.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <bib:pages>91-96</bib:pages>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/978-1-4842-3516-4_6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-12-16 17:41:35</dcterms:dateSubmitted>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:description>DOI: 10.1007/978-1-4842-3516-4_6</dc:description>
+    </bib:BookSection>
     <bib:Article rdf:about="https://ieeexplore.ieee.org/document/7968387">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
